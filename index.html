@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfilio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#hero">John Doe</a>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ">
+                    <li class="nav-item ">
+                        <a class="nav-link active text-white" aria-current="page" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">My Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#works">My Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mt-3">
+        <section class="d-flex justify-content-md-evenly flex-column-reverse align-items-center  gap-3 flex-md-row"
+            id="hero">
+            <!-- Hero -->
+            <div
+                class="d-flex justify-content-sm-center align-items-center flex-column justify-content-md-start align-items-md-start">
+                <h5>Hi!</h5>
+                <h1>I'm John Doe</h1>
+                <p>A FullStack Web Developer</p>
+                <button class="btn btn-sm btn-primary">My Cool Resume</button>
+            </div>
+
+            <div class="d-md-none w-50 h-50">
+                <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
+                    alt="userImage" class="w-100 h-100 rounded-circle shadow-lg">
+            </div>
+            <div class="d-none d-md-block w-25 h-25">
+                <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
+                    alt="userImage" class="w-100 h-100 rounded-circle shadow-lg">
+            </div>
+        </section>
+        <section class="mt-2 p-4" id="skills">
+            <!-- My Skills -->
+            <h1 class="text-primary text-center my-4">My Skill Set</h1>
+            <div class="d-flex d-md-none justify-content-evenly mt-4">
+                <i class="fab fa-html5 fa-3x" style="color: #f4470b;"></i>
+                <i class="fab fa-css3-alt fa-3x text-primary"></i>
+                <i class="fab fa-bootstrap fa-3x" style="color: #730fef"></i>
+            </div>
+
+            <div class="d-none d-md-flex justify-content-evenly mt-4">
+                <i class="fab fa-html5 fa-7x" style="color: #f4470b;"></i>
+                <i class="fab fa-css3-alt fa-7x text-primary"></i>
+                <i class="fab fa-bootstrap fa-7x" style="color: #730fef"></i>
+            </div>
+        </section>
+        <section class="mt-2" id="works">
+            <!-- My Work -->
+            <h1 class="text-primary text-center my-4">My Works</h1>
+            <div class="d-flex flex-column flex-md-row justify-content-md-evenly gap-3">
+                <div class="card">
+                    <img src="https://source.unsplash.com/300x300/?technology" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Portfolio Website</h5>
+                        <p class="card-text">Built an amazing responsive website using bootstrap</p>
+                        <a href="#" class="btn btn-dark">View Source <i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://source.unsplash.com/300x300/?programming" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Portfolio Website</h5>
+                        <p class="card-text">Built an amazing responsive website using bootstrap</p>
+                        <a href="#" class="btn btn-dark">View Source <i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://source.unsplash.com/300x300/?coading" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Portfolio Website</h5>
+                        <p class="card-text">Built an amazing responsive website using bootstrap</p>
+                        <a href="#" class="btn btn-dark">View Source <i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mt-4 py-4">
+            <!-- Contact Me -->
+            <h1 class="text-primary text-center my-4">Contact Form</h1>
+            <div class="row" id="contact">
+                <div class="col-sm col-md-8">
+
+                    <form action="">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Enter Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1"
+                                placeholder="Enter Your Message" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <div class="col-md-4 col-sm">
+                <h3><i class="fas fa-envelope-open"></i> johndoe@gmail.com</h3>
+                <button type="button" class="btn btn-outline-dark"><a href="https://github.com/"><i
+                            class="fab fa-github"></i></a></button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
